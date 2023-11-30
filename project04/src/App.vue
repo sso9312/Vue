@@ -2,7 +2,15 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>|
-    <router-link to="/welcome">Welcome</router-link>
+    <router-link to="/welcome">Welcome</router-link>|
+    <router-link to="/databinding/string">string</router-link>|
+    <router-link to="/databinding/html">HTML</router-link>|
+    <router-link to="/databinding/input">Input</router-link>|
+    <router-link to="/databinding/attr">Attribute</router-link>|
+    <router-link to="/event/list">배열</router-link>|
+    <router-link to="/event/click">Click</router-link>|
+    <router-link to="/event/change">Change</router-link>|
+    <router-link to="/event/key">Key</router-link>|
   </nav>
   <router-view/>
 </template>
